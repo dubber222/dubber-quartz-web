@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quartz>
+    <job>
+        <job-detail>
+            <name>listener1</name>
+            <group>group1</group>
+            <job-class>com.dubber.quartz.simple.SimpleQuartzJob</job-class>
+        </job-detail>
+        <trigger>
+            <cron>
+                <name>job1</name>
+                <group>group1</group>
+                <job-name>listener1</job-name>
+                <job-group>group1</job-group>
+                <cron-expression>0/10 * * * * ?</cron-expression>
+            </cron>
+        </trigger>
+    </job>
+</quartz>

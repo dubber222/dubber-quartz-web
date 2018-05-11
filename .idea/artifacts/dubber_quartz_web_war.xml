@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dubber-quartz-web:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="dubber-quartz.war">
+      <element id="artifact" artifact-name="dubber-quartz-web:war exploded" />
+    </root>
+  </artifact>
+</component>
